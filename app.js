@@ -18,3 +18,4 @@ app.get("/project", function(request, response){
 app.listen(3000);
 // cwebp cat.jpg -o cat.jpg.webp
 app.use('/publish',express.static(__dirname +'/publish/'));
+app.use('/style',express.static(__dirname +'/publish/style/'));
